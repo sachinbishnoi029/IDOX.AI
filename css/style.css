@@ -662,18 +662,23 @@
 
 }
 
+.icon_h:hover svg g path {
+    fill: #0389ff;
 
+}
+
+.icon_h:hover svg g circle {
+    stroke: #0389ff;
+
+}
 
 .icon_h {
     transition: .4s;
-    opacity: 0.4;
 }
 
 .icon_h:hover {
-    transform: translateY(-20%);
-
+    transform: translateY(-40%);
 }
-
 
 .mx-1320 {
     max-width: 1320 !important;
