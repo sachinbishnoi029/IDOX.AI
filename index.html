@@ -39,22 +39,23 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body class="bg-color overflow-hidden">
+<body class="bg-color ">
     <div id="preloader"
         class="min-vh-100 h-100 w-100 bg-black d-flex justify-content-center z-10 align-items-center position-fixed">
         <img src="assets/image/pre.img" alt="preloader">
     </div>
     <button id="back-to-top" class="my-auto mx-auto"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-            fill="currentColor" class="bi bi-upload" viewBox="0 0 16 16">
-            <path
-                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
-            <path
-                d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708z" />
+            fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z" />
+            <path fill-rule="evenodd"
+                d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+        </svg>
         </svg>
     </button>
     <header class="header-bg overflow-hidden">
-        <nav class="nav-bg py-4  z-3 w-100 start-0 ">
-            <div class="container custom-1">
+        <nav class="nav-bg py-4  z-3 w-100 start-0 position-fixed">
+            <div class="container-fluid custom-1">
                 <div class="d-flex align-items-center justify-content-between">
                     <ul class="ps-0 mb-0">
                         <li><a href="#" class="text-decoration-none"><img src="./assets/image/dox,ai logo 1.png"
@@ -95,8 +96,8 @@
                 </div>
             </div>
         </nav>
-        <div class="container py-4 mt-5">
-            <div class="row pb-2">
+        <div class="container py-4 mt-5 align-items-center">
+            <div class="row pb-2 pt-5">
                 <div class="col-xl-6 col-12">
                     <p class="ff-plus fw-light color-white fs-1md d-flex gap-3 align-items-center "><span><svg
                                 xmlns="http://www.w3.org/2000/svg" width="111" height="3" viewBox="0 0 111 3"
@@ -106,7 +107,8 @@
                                     fill="#0389FF" />
                             </svg></span>The world’s <span class="light-blue">#1</span>
                     </p>
-                    <h2 class="ff-plus fw-bold color-white fs-1lg text-capitalize">AI powered document compliance
+                    <h2 class="ff-plus fw-bold color-white fs-1lg text-capitalize align-items-center">AI powered
+                        document compliance
                         solution</h2>
                 </div>
                 <div class="col-xl-6 col-12 pt-5 pt-xl-0">
@@ -121,12 +123,12 @@
         </div>
 
     </header>
-    <section class="bg-color position-relative z-1">
-        <div class="container  ">
+    <section class="bg-color position-relative">
+        <div class="container trans ">
             <img src="./assets/image/bar.img" alt="percentage-img" class="w-100">
         </div>
     </section>
-    <section class="bg-light-black py-5 bg-slider-sec overflow-hidden">
+    <section class="bg-light-black  bg-slider-sec overflow-hidden mt-180">
         <p class="fs-md ff-plus opacity-70 mt-4 fw-light color-white text-center">In collaborate with</p>
         <div class="slick2 mt-4">
             <div class="slick-card">
@@ -160,11 +162,11 @@
     </section>
     <section class="bg-color py-4 overflow-hidden">
         <div class="container ">
-            <div class="row flex-lg-row">
-                <div class="col-lg-6 col-12 pt-5 pt-lg-0 aI">
+            <div class="row flex-lg-row align-items-center">
+                <div class="col-lg-6 col-12 pt-5 pt-lg-0 aI  d-flex align-items-center flex-column">
                     <img src="./assets/image/round.png" alt="ai" class="w-75">
                 </div>
-                <div class="col-lg-6 col-12 my-auto">
+                <div class="col-lg-6 col-12 my-auto d-flex align-items-center flex-column">
                     <h3 class="ff-plus fs-lg fw-medium color-white max-467">Compliance Security Trust</h3>
                     <p class="ff-plus fs-2sm fw-normal color-white opacity-70 max-467">Posuere ultrices aliquet risus
                         malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
@@ -201,7 +203,7 @@
                                 <div class="d-block">
                                     <h2 class="accordion-header">
                                         <button
-                                            class="accordion-button collapsed  fs-3sm fw-medium ff-plus  pl-26 d-block"
+                                            class="accordion-button collapsed  fs-3sm fw-medium ff-plus color-light-gray  pl-26 d-block"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                             aria-expanded="false" aria-controls="collapseOne">
                                             Time-Saving AI Integrations
@@ -720,7 +722,7 @@
                 pellentesque hendrerit.</p>
             <div class="last-section-box mb-5 m-auto ">
                 <label
-                    class="w-100 rounded-pill d-flex align-items-center justify-content-center justify-content-between">
+                    class="w-100 rounded-pill d-flex align-items-center justify-content-center justify-content-between color-white">
                     <input type="text" placeholder="Enter your email here"
                         class="border-0 py-2 px-1 outline_0  fs-2sm fw-normal color-white opacity-70 ff-plus w-100">
                     <button class="fs-2sm fw-semibold color-white text-capitalize plus-sans btn-try text-nowrap">Sign up
@@ -743,7 +745,7 @@
         </span>
     </section>
     <footer class="bg-clrr pt-5 ">
-        <div class="container mx-1320">
+        <div class="container-fluid mx-1440">
             <div class="row">
                 <div class="col-12 col-lg-3">
                     <img src="./assets/image/dox,ai logo 1.png" alt="logo">
@@ -806,9 +808,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-lg-9 d-flex justify-content-center">
+                <div class="col-12 col-lg-9 d-flex justify-content-center pt-4 pt-lg-0">
                     <div class="row pt-2">
-                        <div class="col-6 col-md-4 col-lg-3 ">
+                        <div class="col-6 col-md-4 col-xl-3 ">
                             <ul class="ps-0">
                                 <li class="ff-plus mb-2 fs-2sm fw-medium color-white">PRODUCTS</li>
                                 <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus "
@@ -837,7 +839,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-6 col-md-4 col-lg-2">
+                        <div class="col-6 col-md-4 col-xl-2">
                             <ul class="ps-0">
                                 <li class="ff-jakarta mb-2 fs-2sm fw-medium color-white">STORE</li>
                                 <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus "
@@ -856,7 +858,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-6 col-md-4 col-lg-2">
+                        <div class="col-6 col-md-4 col-xl-2">
                             <ul class="ps-0">
                                 <li class="ff-jakarta mb-2 fs-2sm fw-medium color-white mb-2">SUPPORT</li>
                                 <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
@@ -866,7 +868,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-6 col-md-4 col-lg-2">
+                        <div class="col-6 col-md-4 col-xl-2">
                             <ul class="ps-0">
                                 <li class="ff-jakarta mb-2 fs-2sm fw-medium color-white mb-2">COMPANY</li>
                                 <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus" href="#">About
@@ -893,7 +895,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-6 col-md-4 col-lg-2">
+                        <div class="col-6 col-md-4 col-xl-2">
                             <ul class="ps-0">
                                 <li class="ff-jakarta mb-2 fs-2sm fw-medium color-white">ENTERPRISE</li>
                                 <li class=""><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
@@ -902,7 +904,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-6 col-md-4 col-lg-1">
+                        <div class="col-6 col-md-4 col-xl-1">
                             <ul class="ps-0">
                                 <li class=" ff-jakarta mb-2 fs-2sm fw-medium color-white">RESOURCES</li>
                                 <li class=" mb-2"><a class=" fs-2sm fw-normal color-white opcity-6 ff-plus "

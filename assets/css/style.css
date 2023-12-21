@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Poppins:wght@400;500&display=swap');
 
 * {
-    margin: 0;  
+    margin: 0;
     padding: 0;
     box-sizing: border-box !important;
     list-style-type: none !important;
@@ -25,6 +25,7 @@
 
     /* color */
     --color-white: #FBFDFF;
+    --color-light-gray: #c9d0d6;
     --color-black1: #020d15;
     --color-light-blue: #0389FF;
     --light-purple: #021728;
@@ -106,6 +107,9 @@
 .ff-plus {
     font-family: 'Plus Jakarta Sans', 'sans-serif';
 }
+.trans{
+    transform: translate(10px,);
+}
 
 
 .header-bg {
@@ -113,6 +117,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
 }
 
 .nav-bg {
@@ -153,6 +158,9 @@
     position: relative;
     transition: all 300ms linear;
 
+}
+.trans{
+    transform: translate(10px,-575px);
 }
 
 .home:hover {
@@ -195,8 +203,16 @@
     background: linear-gradient(160deg, #0069E3 -14.36%, rgba(0, 136, 255, 0.58) 113.71%);
 
 }
+.trans{
+    transform: translate(10px,-300px);
+}
+.mt-180{
+    margin-top: -180px;
+}
 
-
+.mw-115 {
+    max-width: 115px;
+}
 
 .logo-svg {
     transition: all 300ms linear;
@@ -492,6 +508,7 @@
     opacity: 100;
     background-color: var(--color-light-blue);
     border: 1px solid var(--color-light-blue);
+    box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
 }
 
 .last-section-bg {
@@ -675,8 +692,8 @@
 }
 
 
-.mx-1320 {
-    max-width: 1320 !important;
+.mx-1440 {
+    max-width: 1440 !important;
 }
 
 .footer-l {
@@ -695,7 +712,7 @@
 }
 
 .tranlate-xy {
-    transform: translate(14px, 30px);
+    transform: translate(14px, 23px);
 }
 
 .accordion-button {
@@ -727,6 +744,7 @@
 .accordion-button::after {
     content: unset !important;
 }
+
 
 
 
@@ -1040,7 +1058,7 @@
     }
 
     .over-flow {
-        overflow-y: hidden;
+        overflow: hidden;
     }
 }
 
