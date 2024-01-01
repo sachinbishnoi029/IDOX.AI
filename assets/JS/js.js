@@ -1,3 +1,4 @@
+
 const Preloader = document.getElementById('preloader')
 setTimeout(() => {
   console.log("Delayed for 1 second.");
@@ -145,6 +146,7 @@ nav.addEventListener("click", function () {
   span3.classList.toggle("nav3")
   overlay.classList.toggle("left-0")
   bgbody.classList.toggle("over-flow")
+  document.body.classList.toggle("overflow_hidden");
 })
 overlay.addEventListener("click", function () {
   menubar.classList.toggle("left-0")
@@ -154,6 +156,7 @@ overlay.addEventListener("click", function () {
   span3.classList.toggle("nav3")
   overlay.classList.toggle("left-0")
   bgbody.classList.toggle("over-flow")
+  document.body.classList.toggle("overflow_hidden");
 })
 finish.forEach(e => {
   e.addEventListener("click", function () {
@@ -166,5 +169,6 @@ finish.forEach(e => {
     overlay.classList.toggle("left-0")
     span2.classList.toggle("nav2")
     span3.classList.toggle("nav3")
+    document.body.classList.toggle("overflow_hidden");
   })
 });

@@ -39,7 +39,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body class="bg-color ">
+<body class="bg-color overflow-hidden">
     <div id="preloader"
         class="min-vh-100 h-100 w-100 bg-black d-flex justify-content-center z-10 align-items-center position-fixed">
         <img src="assets/image/pre.img" alt="preloader">
@@ -121,14 +121,15 @@
                 </div>
             </div>
         </div>
+        <div class="position-relative z-1">
+            <div class="container">
+                <img src="./assets/image/herosection-img-wbp.webp" alt="images" class="w-100 position-relative z-n1">
+            </div>
+            <div class="hero-elipes d-none d-sm-block"></div>
+        </div>
 
     </header>
-    <section class="bg-color position-relative">
-        <div class="container trans ">
-            <img src="./assets/image/bar.img" alt="percentage-img" class="w-100">
-        </div>
-    </section>
-    <section class="bg-light-black  bg-slider-sec overflow-hidden mt-180">
+    <section class="bg-light-black  bg-slider-sec overflow-hidden ">
         <p class="fs-md ff-plus opacity-70 mt-4 fw-light color-white text-center">In collaborate with</p>
         <div class="slick2 mt-4">
             <div class="slick-card">
@@ -164,13 +165,13 @@
         <div class="container ">
             <div class="row flex-lg-row align-items-center">
                 <div class="col-lg-6 col-12 pt-5 pt-lg-0 aI  d-flex align-items-center flex-column">
-                    <img src="./assets/image/round.png" alt="ai" class="w-75">
+                    <img src="./assets/image/round.png" alt="ai" class="w-100">
                 </div>
-                <div class="col-lg-6 col-12 my-auto d-flex align-items-center flex-column">
+                <div class="col-lg-6 col-12 my-auto d-flex align-items-start flex-column ps-5">
                     <h3 class="ff-plus fs-lg fw-medium color-white max-467">Compliance Security Trust</h3>
                     <p class="ff-plus fs-2sm fw-normal color-white opacity-70 max-467">Posuere ultrices aliquet risus
                         malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
-                    <button class="btn-try ff-plus fw-semibold fs-2sm color-white">watch demo video</button>
+                    <button class="btn-try ff-plus fw-semibold fs-2sm color-white ">watch demo video</button>
                 </div>
             </div>
         </div>
@@ -594,7 +595,7 @@
         </div>
     </section>
     <section class="bg-color py-5 z-1  position-relative">
-        <!-- <span class="elipse position-absolute z-n1 start-0 top-0"></span> -->
+        <span class="elipse-header position-absolute z-n1 integration-elipse"></span>
         <div class="container">
             <h3 class="ff-plus fs-lg fw-medium  text-center color-white m-0 py-5 ">choose the plan best fits for you
             </h3>
@@ -714,237 +715,232 @@
                 </defs>
             </svg>
         </span>
-        <div class="container">
-            <h2 class="fs-lg fw-medium color-white text-capitalize text-center plus-sans pt-5">Get started today!</h2>
-            <p class="fs-2sm fw-normal color-white opacity-70 text-center ff-plus max-617 m-auto pb-5">Arcu egestas
-                pellentesque velit
-                facilisis in in. Tortor nisl urna lacus mauris adipiscing commodo purus. Lectus etiam arcu sagittis
-                pellentesque hendrerit.</p>
-            <div class="last-section-box mb-5 m-auto ">
-                <label
-                    class="w-100 rounded-pill d-flex align-items-center justify-content-center justify-content-between color-white">
-                    <input type="text" placeholder="Enter your email here"
-                        class="border-0 py-2 px-1 outline_0  fs-2sm fw-normal color-white opacity-70 ff-plus w-100">
-                    <button class="fs-2sm fw-semibold color-white text-capitalize plus-sans btn-try text-nowrap">Sign up
-                        now</button>
-                </label>
-            </div>
-        </div>
-        <span class=""><svg width="1440" height="87" viewBox="0 0 1440 87" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <rect width="1440" height="86.0171" transform="matrix(1 0 0 -1 0 86.0542)"
-                    fill="url(#paint0_linear_2_11970)" />
-                <defs>
-                    <linearGradient id="paint0_linear_2_11970" x1="720" y1="0" x2="720" y2="86.0171"
-                        gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#020D15" stop-opacity="0" />
-                        <stop offset="1" stop-color="#020D15" />
-                    </linearGradient>
-                </defs>
-            </svg>
-        </span>
-    </section>
-    <footer class="bg-clrr pt-5 ">
-        <div class="container-fluid mx-1440">
-            <div class="row">
-                <div class="col-12 col-lg-3">
-                    <img src="./assets/image/dox,ai logo 1.png" alt="logo">
-                    <p class=" fs-sm fw-normal color-white opcity-6 mx-209 pt-3 pb-4 ff-plus">Any system that works with
-                        API can be
-                        connected via APIcenter.
-                    </p>
-                    <div class="pt-25    d-flex gap-2 pt-2">
-                        <a class="icon_h" href="https://www.facebook.com/login/" target="_blank"><svg width="33"
-                                height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_2_12018)">
-                                    <circle cx="16.3418" cy="16.9912" r="15.5" stroke="white" />
-                                    <path
-                                        d="M18.3418 18.4912H20.8418L21.8418 14.4912H18.3418V12.4912C18.3418 11.4612 18.3418 10.4912 20.3418 10.4912H21.8418V7.13121C21.5158 7.08821 20.2848 6.99121 18.9848 6.99121C16.2698 6.99121 14.3418 8.64821 14.3418 11.6912V14.4912H11.3418V18.4912H14.3418V26.9912H18.3418V18.4912Z"
-                                        fill="white" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_2_12018">
-                                        <rect width="32" height="32" fill="white"
-                                            transform="translate(0.341797 0.991211)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                        </a>
-                        <a class="icon_h" href="https://www.instagram.com/accounts/login/" target="_blank"><svg
-                                width="33" height="33" viewBox="0 0 33 33" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_2_12022)">
-                                    <circle cx="16.3418" cy="16.9912" r="15.5" stroke="white" />
-                                    <path
-                                        d="M15.8411 13.6577C15.0897 13.6577 14.369 13.9562 13.8377 14.4876C13.3063 15.0189 13.0078 15.7396 13.0078 16.491C13.0078 17.2425 13.3063 17.9632 13.8377 18.4945C14.369 19.0259 15.0897 19.3244 15.8411 19.3244C16.5926 19.3244 17.3133 19.0259 17.8446 18.4945C18.376 17.9632 18.6745 17.2425 18.6745 16.491C18.6745 15.7396 18.376 15.0189 17.8446 14.4876C17.3133 13.9562 16.5926 13.6577 15.8411 13.6577Z"
-                                        fill="white" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M12.4418 7.99121C11.0892 7.99121 9.79199 8.52853 8.83555 9.48497C7.87912 10.4414 7.3418 11.7386 7.3418 13.0912L7.3418 19.8912C7.3418 21.2438 7.87912 22.541 8.83555 23.4975C9.79199 24.4539 11.0892 24.9912 12.4418 24.9912H19.2418C20.5944 24.9912 21.8916 24.4539 22.848 23.4975C23.8045 22.541 24.3418 21.2438 24.3418 19.8912V13.0912C24.3418 11.7386 23.8045 10.4414 22.848 9.48497C21.8916 8.52853 20.5944 7.99121 19.2418 7.99121H12.4418ZM11.8751 16.4912C11.8751 15.4392 12.293 14.4302 13.0369 13.6864C13.7808 12.9425 14.7898 12.5245 15.8418 12.5245C16.8938 12.5245 17.9028 12.9425 18.6467 13.6864C19.3905 14.4302 19.8085 15.4392 19.8085 16.4912C19.8085 17.5432 19.3905 18.5522 18.6467 19.2961C17.9028 20.04 16.8938 20.4579 15.8418 20.4579C14.7898 20.4579 13.7808 20.04 13.0369 19.2961C12.293 18.5522 11.8751 17.5432 11.8751 16.4912ZM19.8085 12.5245H20.9418V11.3912H19.8085V12.5245Z"
-                                        fill="white" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_2_12022">
-                                        <rect width="32" height="32" fill="white"
-                                            transform="translate(0.341797 0.991211)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                        </a>
-                        <a class="icon_h" href="https://twitter.com/login" target="_blank"><svg width="33" height="33"
-                                viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_2_12029)">
-                                    <circle cx="16.3418" cy="16.9912" r="15.5" stroke="white" />
-                                    <path
-                                        d="M25.3418 11.6165C24.7161 11.9009 24.0416 12.0878 23.3428 12.1772C24.0579 11.7465 24.6104 11.0639 24.8705 10.2431C24.196 10.6494 23.4484 10.9338 22.6602 11.0964C22.0182 10.3975 21.1162 9.99121 20.0923 9.99121C18.1826 9.99121 16.6224 11.5514 16.6224 13.4773C16.6224 13.7536 16.6549 14.0218 16.7118 14.2737C13.8189 14.1274 11.2428 12.7379 9.52822 10.6332C9.22755 11.1451 9.0569 11.7465 9.0569 12.3803C9.0569 13.5911 9.66637 14.6638 10.609 15.2732C10.032 15.2732 9.49572 15.1107 9.0244 14.8669V14.8913C9.0244 16.5816 10.2271 17.9955 11.8198 18.3124C11.3084 18.4524 10.7716 18.4718 10.2515 18.3693C10.4722 19.0621 10.9044 19.6682 11.4875 20.1026C12.0705 20.5369 12.775 20.7777 13.5019 20.7909C12.2697 21.7664 10.7423 22.2937 9.17067 22.2861C8.89438 22.2861 8.61809 22.2699 8.3418 22.2374C9.88577 23.2288 11.7223 23.8057 13.6888 23.8057C20.0923 23.8057 23.6109 18.4912 23.6109 13.8837C23.6109 13.7293 23.6109 13.583 23.6028 13.4286C24.2854 12.941 24.8705 12.3234 25.3418 11.6165Z"
-                                        fill="white" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_2_12029">
-                                        <rect width="32" height="32" fill="white"
-                                            transform="translate(0.341797 0.991211)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                        </a>
+        <section class="last-section-bg bg-color position-relative  m-0 p-0 pt-5 ">
+            <div class="container">
+                <h2 class="fs-lg fw-medium color-white text-capitalize text-center plus-sans pt-sm-5">Get started today!
+                </h2>
+                <p class="fs-2sm fw-normal color-white opacity-70 text-center ff-plus max-617 m-auto pb-5 lh-27">Arcu
+                    egestas
+                    pellentesque velit
+                    facilisis in in. Tortor nisl urna lacus mauris adipiscing commodo purus. Lectus etiam arcu sagittis
+                    pellentesque hendrerit.</p>
+                <div class="email-box mb-sm-5 m-auto d-flex  flex-column flex-sm-row">
+                    <div
+                        class="w-100 d-sm-flex p-3 p-sm-0 align-items-center d-flex justify-content-sm-between justify-content-center">
+                        <input type="text" placeholder="Enter your email here"
+                            class="border-0 text-center text-sm-start py-2  outline_0  fs-2sm fw-normal color-white opacity-70 ff-plus w-100">
+                        <button
+                            class="fs-2sm fw-semibold color-white text-capitalize plus-sans btn-try text-nowrap">Sign up
+                            now</button>
                     </div>
                 </div>
-                <div class="col-12 col-lg-9 d-flex justify-content-center pt-4 pt-lg-0">
-                    <div class="row pt-2">
-                        <div class="col-6 col-md-4 col-xl-3 ">
-                            <ul class="ps-0">
-                                <li class="ff-plus mb-2 fs-2sm fw-medium color-white">PRODUCTS</li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus "
-                                        href="#">iDox.ai
-                                        Data
-                                        Discovery</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">iDox.ai
-                                        Data Redact</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">iDox.ai
-                                        Data Compair</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">iDox.ai
-                                        Data Review</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">Industries</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">Developer</a>
-                                </li>
-                            </ul>
+            </div>
+            <img class="w-100" src="./assets/image/linear.gridient.png" alt="image">
+        </section>
+        <footer class="bg-clrr ">
+            <div class="container-fluid pt-5">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <img src="./assets/image/dox,ai logo 1.png" alt="logo">
+                        <p class=" fs-sm fw-normal color-white opcity-6 mx-209 pt-3 pb-4 ff-plus">Any system that works
+                            with
+                            API can be
+                            connected via APIcenter.
+                        </p>
+                        <div class="pt-25 d-flex gap-2 pt-2">
+                            <a class="icon_h" href="https://www.facebook.com/login/" target="_blank"><svg width="33"
+                                    height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2_12018)">
+                                        <circle cx="16.3418" cy="16.9912" r="15.5" stroke="white" />
+                                        <path
+                                            d="M18.3418 18.4912H20.8418L21.8418 14.4912H18.3418V12.4912C18.3418 11.4612 18.3418 10.4912 20.3418 10.4912H21.8418V7.13121C21.5158 7.08821 20.2848 6.99121 18.9848 6.99121C16.2698 6.99121 14.3418 8.64821 14.3418 11.6912V14.4912H11.3418V18.4912H14.3418V26.9912H18.3418V18.4912Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2_12018">
+                                            <rect width="32" height="32" fill="white"
+                                                transform="translate(0.341797 0.991211)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a class="icon_h" href="https://www.instagram.com/accounts/login/" target="_blank"><svg
+                                    width="33" height="33" viewBox="0 0 33 33" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2_12022)">
+                                        <circle cx="16.3418" cy="16.9912" r="15.5" stroke="white" />
+                                        <path
+                                            d="M15.8411 13.6577C15.0897 13.6577 14.369 13.9562 13.8377 14.4876C13.3063 15.0189 13.0078 15.7396 13.0078 16.491C13.0078 17.2425 13.3063 17.9632 13.8377 18.4945C14.369 19.0259 15.0897 19.3244 15.8411 19.3244C16.5926 19.3244 17.3133 19.0259 17.8446 18.4945C18.376 17.9632 18.6745 17.2425 18.6745 16.491C18.6745 15.7396 18.376 15.0189 17.8446 14.4876C17.3133 13.9562 16.5926 13.6577 15.8411 13.6577Z"
+                                            fill="white" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.4418 7.99121C11.0892 7.99121 9.79199 8.52853 8.83555 9.48497C7.87912 10.4414 7.3418 11.7386 7.3418 13.0912L7.3418 19.8912C7.3418 21.2438 7.87912 22.541 8.83555 23.4975C9.79199 24.4539 11.0892 24.9912 12.4418 24.9912H19.2418C20.5944 24.9912 21.8916 24.4539 22.848 23.4975C23.8045 22.541 24.3418 21.2438 24.3418 19.8912V13.0912C24.3418 11.7386 23.8045 10.4414 22.848 9.48497C21.8916 8.52853 20.5944 7.99121 19.2418 7.99121H12.4418ZM11.8751 16.4912C11.8751 15.4392 12.293 14.4302 13.0369 13.6864C13.7808 12.9425 14.7898 12.5245 15.8418 12.5245C16.8938 12.5245 17.9028 12.9425 18.6467 13.6864C19.3905 14.4302 19.8085 15.4392 19.8085 16.4912C19.8085 17.5432 19.3905 18.5522 18.6467 19.2961C17.9028 20.04 16.8938 20.4579 15.8418 20.4579C14.7898 20.4579 13.7808 20.04 13.0369 19.2961C12.293 18.5522 11.8751 17.5432 11.8751 16.4912ZM19.8085 12.5245H20.9418V11.3912H19.8085V12.5245Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2_12022">
+                                            <rect width="32" height="32" fill="white"
+                                                transform="translate(0.341797 0.991211)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a class="icon_h" href="https://twitter.com/login" target="_blank"><svg width="33"
+                                    height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2_12029)">
+                                        <circle cx="16.3418" cy="16.9912" r="15.5" stroke="white" />
+                                        <path
+                                            d="M25.3418 11.6165C24.7161 11.9009 24.0416 12.0878 23.3428 12.1772C24.0579 11.7465 24.6104 11.0639 24.8705 10.2431C24.196 10.6494 23.4484 10.9338 22.6602 11.0964C22.0182 10.3975 21.1162 9.99121 20.0923 9.99121C18.1826 9.99121 16.6224 11.5514 16.6224 13.4773C16.6224 13.7536 16.6549 14.0218 16.7118 14.2737C13.8189 14.1274 11.2428 12.7379 9.52822 10.6332C9.22755 11.1451 9.0569 11.7465 9.0569 12.3803C9.0569 13.5911 9.66637 14.6638 10.609 15.2732C10.032 15.2732 9.49572 15.1107 9.0244 14.8669V14.8913C9.0244 16.5816 10.2271 17.9955 11.8198 18.3124C11.3084 18.4524 10.7716 18.4718 10.2515 18.3693C10.4722 19.0621 10.9044 19.6682 11.4875 20.1026C12.0705 20.5369 12.775 20.7777 13.5019 20.7909C12.2697 21.7664 10.7423 22.2937 9.17067 22.2861C8.89438 22.2861 8.61809 22.2699 8.3418 22.2374C9.88577 23.2288 11.7223 23.8057 13.6888 23.8057C20.0923 23.8057 23.6109 18.4912 23.6109 13.8837C23.6109 13.7293 23.6109 13.583 23.6028 13.4286C24.2854 12.941 24.8705 12.3234 25.3418 11.6165Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2_12029">
+                                            <rect width="32" height="32" fill="white"
+                                                transform="translate(0.341797 0.991211)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
                         </div>
+                    </div>
+                    <div class="col-12 col-lg-9 d-flex justify-content-center pt-4 pt-lg-0">
+                        <div class="row pt-2">
+                            <div class="col-6 col-md-4 col-xl-3 ">
+                                <ul class="ps-0">
+                                    <li class="ff-plus mb-2 fs-2sm fw-medium color-white">PRODUCTS</li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus "
+                                            href="#">iDox.ai
+                                            Data
+                                            Discovery</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">iDox.ai
+                                            Data Redact</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">iDox.ai
+                                            Data Compair</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">iDox.ai
+                                            Data Review</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Industries</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Developer</a>
+                                    </li>
+                                </ul>
+                            </div>
 
-                        <div class="col-6 col-md-4 col-xl-2">
-                            <ul class="ps-0">
-                                <li class="ff-jakarta mb-2 fs-2sm fw-medium color-white">STORE</li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus "
-                                        href="#">Choose a
-                                        plan</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">Integrations</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">Pricing</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">News</a>
-                                </li>
-                            </ul>
-                        </div>
+                            <div class="col-6 col-md-4 col-xl-2">
+                                <ul class="ps-0">
+                                    <li class="ff-jakarta mb-2 fs-2sm fw-medium color-white">STORE</li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus "
+                                            href="#">Choose a
+                                            plan</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Integrations</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Pricing</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">News</a>
+                                    </li>
+                                </ul>
+                            </div>
 
-                        <div class="col-6 col-md-4 col-xl-2">
-                            <ul class="ps-0">
-                                <li class="ff-jakarta mb-2 fs-2sm fw-medium color-white mb-2">SUPPORT</li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">Customer
-                                        Support</a>
-                                </li>
-                            </ul>
-                        </div>
+                            <div class="col-6 col-md-4 col-xl-2">
+                                <ul class="ps-0">
+                                    <li class="ff-jakarta mb-2 fs-2sm fw-medium color-white mb-2">SUPPORT</li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Customer
+                                            Support</a>
+                                    </li>
+                                </ul>
+                            </div>
 
-                        <div class="col-6 col-md-4 col-xl-2">
-                            <ul class="ps-0">
-                                <li class="ff-jakarta mb-2 fs-2sm fw-medium color-white mb-2">COMPANY</li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus" href="#">About
-                                        Us</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">Security</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">Partnership
-                                        Opportunities</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">Careers</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">Privacy
-                                        Policy</a>
-                                </li>
-                                <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus" href="#">Terms
-                                        of
-                                        Services</a>
-                                </li>
-                            </ul>
-                        </div>
+                            <div class="col-6 col-md-4 col-xl-2">
+                                <ul class="ps-0">
+                                    <li class="ff-jakarta mb-2 fs-2sm fw-medium color-white mb-2">COMPANY</li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">About
+                                            Us</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Security</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Partnership
+                                            Opportunities</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Careers</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Privacy
+                                            Policy</a>
+                                    </li>
+                                    <li class="mb-2"><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Terms
+                                            of
+                                            Services</a>
+                                    </li>
+                                </ul>
+                            </div>
 
-                        <div class="col-6 col-md-4 col-xl-2">
-                            <ul class="ps-0">
-                                <li class="ff-jakarta mb-2 fs-2sm fw-medium color-white">ENTERPRISE</li>
-                                <li class=""><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">Enterprise</a>
-                                </li>
-                            </ul>
-                        </div>
+                            <div class="col-6 col-md-4 col-xl-2">
+                                <ul class="ps-0">
+                                    <li class="ff-jakarta mb-2 fs-2sm fw-medium color-white">ENTERPRISE</li>
+                                    <li class=""><a class="fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Enterprise</a>
+                                    </li>
+                                </ul>
+                            </div>
 
-                        <div class="col-6 col-md-4 col-xl-1">
-                            <ul class="ps-0">
-                                <li class=" ff-jakarta mb-2 fs-2sm fw-medium color-white">RESOURCES</li>
-                                <li class=" mb-2"><a class=" fs-2sm fw-normal color-white opcity-6 ff-plus "
-                                        href="#">Blog</a>
-                                </li>
-                                <li class=" mb-2"><a class=" fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">Case
-                                        Studies</a>
-                                </li>
-                                <li class=" mb-2"><a class=" fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">eBooks</a>
-                                </li>
-                                <li class=" mb-2"><a class=" fs-2sm fw-normal color-white opcity-6 ff-plus"
-                                        href="#">Events</a>
-                                </li>
-                            </ul>
+                            <div class="col-6 col-md-4 col-xl-1">
+                                <ul class="ps-0">
+                                    <li class=" ff-jakarta mb-2 fs-2sm fw-medium color-white">RESOURCES</li>
+                                    <li class=" mb-2"><a class=" fs-2sm fw-normal color-white opcity-6 ff-plus "
+                                            href="#">Blog</a>
+                                    </li>
+                                    <li class=" mb-2"><a class=" fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Case
+                                            Studies</a>
+                                    </li>
+                                    <li class=" mb-2"><a class=" fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">eBooks</a>
+                                    </li>
+                                    <li class=" mb-2"><a class=" fs-2sm fw-normal color-white opcity-6 ff-plus"
+                                            href="#">Events</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <hr class="footer-l mt-5">
-        <div>
-            <p class="fs-2sm fw-normal color-white opcity-6 pb-4 text-center pt-3 ff-plus m-0">2023 © Foxit Software
-                Incorporated. All
-                rights
-                reserved.</p>
-        </div>
-    </footer>
+            <hr class="footer-l mt-5">
+            <div>
+                <p class="fs-2sm fw-normal color-white opcity-6 pb-4 text-center pt-3 ff-plus m-0">2023 © Foxit Software
+                    Incorporated. All
+                    rights
+                    reserved.</p>
+            </div>
+        </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./assets/JS/js.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+            integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+            integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./assets/JS/js.js"></script>
 </body>
 
 </html>

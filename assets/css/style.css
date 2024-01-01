@@ -107,16 +107,20 @@
 .ff-plus {
     font-family: 'Plus Jakarta Sans', 'sans-serif';
 }
-.trans{
-    transform: translate(10px,);
+
+.trans {
+    transform: translate(10px, );
 }
 
+.transform-img {
+    transform: translateY(20px)
+}
 
 .header-bg {
     background-image: url(../image/star.bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: top;
+    background-position: contain;
     min-height: 100vh;
 }
 
@@ -159,8 +163,9 @@
     transition: all 300ms linear;
 
 }
-.trans{
-    transform: translate(10px,-575px);
+
+.trans {
+    transform: translate(10px, -575px);
 }
 
 .home:hover {
@@ -188,10 +193,9 @@
 
 
 .btn-try {
-    display: inline-flex;
-    padding: 13px 32px;
+    display: inline-transflex;
     align-items: flex-start;
-    gap: 8px;
+    padding: 13px 32px;
     border: 1px solid transparent !important;
     border-radius: 40px;
     background: linear-gradient(160deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
@@ -203,10 +207,24 @@
     background: linear-gradient(160deg, #0069E3 -14.36%, rgba(0, 136, 255, 0.58) 113.71%);
 
 }
-.trans{
-    transform: translate(10px,-300px);
+
+.elipse-header {
+    width: 299.329px;
+    height: 303.657px;
+    flex-shrink: 0;
+    border-radius: 303.657px;
+    opacity: 0.4;
+    background: #1673ff;
+    filter: blur(100px);
 }
-.mt-180{
+
+.nav-bg {
+    border-bottom: 1px solid rgba(251, 253, 255, 0.2);
+    background: rgba(251, 253, 255, 0.01);
+    backdrop-filter: blur(16.5px);
+}
+
+.mt-180 {
     margin-top: -180px;
 }
 
@@ -303,6 +321,13 @@
     filter: grayscale(0%);
 }
 
+.last-section-bg {
+    background-image: url(../image/last-bgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .curser-pointer {
     cursor: pointer;
 }
@@ -341,6 +366,15 @@
 .slider3 .slick-slide.slick-active p {
     color: var(--color-white) !important;
     font-style: italic;
+}
+.ml-25{
+    margin-left: 25px;  
+}
+.email-box {
+    border-radius: 29px;
+    background: rgba(251, 253, 255, 0.07);
+    gap: 167.287px;
+    max-width: 520px;
 }
 
 #back-to-top {
@@ -422,6 +456,7 @@
     max-width: 834px;
 }
 
+
 .slider3-card {
     padding: 27px 20px 42px 20px;
     border-radius: 20px;
@@ -437,6 +472,10 @@
 }
 
 .slick-track {
+    overflow: hidden;
+}
+
+.overflow_hidden {
     overflow: hidden;
 }
 
@@ -511,7 +550,7 @@
     box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
 }
 
-.last-section-bg {
+.section-bg {
     background-image: url(../image/star.bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -619,6 +658,10 @@
 
 }
 
+.bg-color {
+    background-color: var(--color-black1) !important;
+}
+
 .outline_0 {
     margin: 0;
     outline: 0;
@@ -644,6 +687,10 @@
     background: rgba(3, 137, 255, 0.12) !important;
     margin-bottom: 20px !important;
 
+}
+
+.mt--173 {
+    margin-top: -173px;
 }
 
 .mh-550 {
@@ -802,6 +849,9 @@
         bottom: unset;
         transform: unset;
     }
+    .email-box{
+        padding: 1px 0px 1px 33.713px;
+    }
 
 
 }
@@ -816,12 +866,20 @@
         transform: rotate(180deg);
     }
 
+    .mt--173 {
+        margin-top: -342px;
+    }
+
     .arrow2 {
         position: absolute;
         right: -11px;
         top: 37%;
         bottom: unset;
         transform: unset;
+    }
+
+    .transform-img {
+        transform: translateY(-403px)
     }
 
     .border-box2 {
@@ -852,6 +910,11 @@
     .border-box7 {
         border-bottom: transparent;
     }
+    .email-box{
+        flex-direction: column;
+        
+    }
+    
 }
 
 @media (min-width:992px) {
@@ -913,6 +976,18 @@
         --fs-lg: 40px;
         --fs-1lg: 44px;
         --fs-xl: 50px;
+    }
+
+    .transform-img {
+        transform: translateY(-200px)
+    }
+
+    .mt--173 {
+        margin-top: -503px;
+    }
+
+    .img-set {
+        margin-top: -224px;
     }
 
     .slider3-card {
@@ -1117,6 +1192,9 @@
         color: var(--color-white) !important;
         transition: all 500ms linear !important;
         padding: 20px !important;
+    }
+    .email-box{
+        flex-direction: row;
     }
 
 }
